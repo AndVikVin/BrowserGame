@@ -28,6 +28,9 @@ function playerTurn() {
         winMessage.textContent = 'УРАААА! Мы победили болячки и спасли Пончика!!!';
         const restartButton = document.createElement('button');
         restartButton.classList.add('restartButton');
+        setTimeout(() => {
+          restartButton.focus();
+        }, 0);
         restartButton.textContent = 'Начать с начала';
         restartButton.addEventListener('click', () => {
           document.location.reload(true);

@@ -17,6 +17,7 @@ const answer = document.createElement('input');
 answer.type = 'text';
 answer.classList.add('answer');
 answerForm.appendChild(answer);
+spellPage.addEventListener('transitionend', () => { answer.focus(); });
 spellPage.appendChild(taskLabel);
 spellPage.appendChild(task);
 spellPage.appendChild(useSpell);
