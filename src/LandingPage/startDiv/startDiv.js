@@ -10,6 +10,7 @@ p.textContent = 'Друзья! Пончик заболел! И у Пилюльк
 startDiv.appendChild(p);
 const button = document.createElement('button');
 button.innerHTML = 'Начать!';
+button.autofocus = 'true';
 startDiv.appendChild(button);
 function moveToRegisterPage() {
   const landingPage = document.querySelector('.landingPage');
