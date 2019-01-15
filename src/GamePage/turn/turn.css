@@ -1,0 +1,10 @@
+
+.turn {
+    margin: 0 33%;
+    width: 500px;
+    height: 30px;
+    font-size: 42px;
+    text-align: center;
+    color: rgb(131, 3, 3);
+    font-weight: bold;
+}

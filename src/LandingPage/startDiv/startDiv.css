@@ -1,0 +1,34 @@
+.startDiv {
+    width: 100%;
+    height: 825px;
+    background-image:url('./backwards.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 10%;
+    color: rgba(223, 45, 223, 0.842);
+}
+
+.startDiv p {
+    display: block;
+    margin: 10px auto;
+    width:25%;
+    text-align: center;
+    color: rgb(17, 0, 255);
+}
+
+.startDiv button {
+    display: block;
+    width:130px;
+    height: 40px;
+    margin: 25px auto;
+    background-color: aquamarine;
+    border-radius: 35%;
+    outline: none;
+}
+

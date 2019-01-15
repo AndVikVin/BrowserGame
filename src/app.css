@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body div {
+    transition: 3s;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform:translateX(-110%);
+}
+
+.right {
+    position: absolute;
+    left:0;
+    top:0;
+    transform: translateX(110%);
+}
+
+.center {
+    position: absolute;
+    left:0;
+    top:0;
+}
+

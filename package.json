@@ -1,0 +1,32 @@
+{
+  "name": "browsergametraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "file-loader": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "env": {
+    "browser": true
+  }
+}

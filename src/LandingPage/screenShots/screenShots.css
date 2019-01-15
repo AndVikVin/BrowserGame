@@ -1,0 +1,9 @@
+.screenShotsDiv {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+}
+
+.screenShotsDiv img {
+    margin: 40px 48px;
+}

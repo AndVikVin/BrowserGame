@@ -1,0 +1,80 @@
+.spellPage {
+    position: relative;
+    margin: 5% 28%;
+    /* top:180px;
+    left: 475px; */
+    width: 700px;
+    height: 175px;
+    border: 2px solid grey;
+    background-color: aliceblue;
+    visibility: hidden;
+    transition: 4s;
+}
+
+.taskLabel {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width:400px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.task {
+    position: absolute;
+    top: 65px;
+    left: 15px;
+    margin: 0;
+    width:250px;
+    height: 40px;
+    border: 1px solid grey;
+    font-size: 24px;
+    text-align: end;
+    line-height: 1.5em;
+}
+
+.spellPage button {
+    position: absolute;
+    top: 65px;
+    right: 125px;
+    height: 40px;
+    width: 100px;
+}
+
+.spellPage form {
+    position: absolute;
+    top: 65px;
+    left: 280px;
+}
+
+.spellPage input {
+    width:150px;
+    height: 38px;
+}
+
+.answerResult {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width:400px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.winMessage {
+    text-align: center;
+    font-size: 24px;
+    color:purple;
+}
+
+.restartButton {
+    position: absolute;
+    right:55px;
+    bottom: 60px;
+    width: 45px;
+    height: 25px;
+}

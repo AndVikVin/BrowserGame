@@ -1,0 +1,17 @@
+.monsters {
+    position: absolute;
+    top: 612px;
+    right: 150px;
+}
+
+.monsterName {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 500px;
+    height: 30px;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(32, 53, 243);
+    font-weight: bold;
+}
